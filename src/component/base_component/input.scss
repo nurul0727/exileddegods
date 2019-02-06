@@ -1,0 +1,26 @@
+
+
+.input {
+    width: 100%;
+    outline: none;
+    transition: 0.3s;
+}
+
+.ape_search, .nft-search {
+    max-width: 400px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background: #ffffff00;
+    outline: none;
+    color: black;
+}
+
+.nft-search {
+    max-width: 200px;
+}
+
+.ape_search:focus, .nft-search:focus {
+    border-color: #ff8605;
+}
+

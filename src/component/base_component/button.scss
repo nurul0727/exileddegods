@@ -1,0 +1,121 @@
+
+
+.button {
+    outline: none;
+    border: 0px;
+    padding: 0px;
+    transition: 0.3s;
+    background-color: #ffffff00;
+    color: black;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.site-menu {
+    i {
+        font-size: 2rem;
+    }
+
+    span {
+        font-size: 1rem;
+        margin-top: 0;
+        margin-left: 0;
+        text-transform: uppercase;
+        padding-left: 7px;
+        font-weight: 600;
+    }
+}
+
+.site-menu-search {
+    i {
+        font-size: 1rem;
+        font-weight: 600;
+        fill: currentColor;
+    }
+}
+
+.site-menu:hover, .site-menu-search:hover {
+    color: #ff8605;
+}
+
+.ape_search_check {
+    background: #ff8605;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.btn-discord {
+    font-family: dm mono,monospace;
+    width: 300px;
+    height: 50px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #5865f2;
+    color: #fff;
+    border: none;
+    transition: all .3s ease;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    outline: none;
+    align-self: center;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.btn-discord:hover {
+    animation: random-bg .5s linear infinite,grow 1300ms ease infinite;
+}
+
+.faq_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid hsl(231deg 87% 94%);
+    padding: 15px 0px;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px!important;
+
+        p {
+            font-size: 20px;
+            margin: 0px;
+            font-weight: 600;
+        }
+    
+        i {
+            font-size: 30px;
+            color: hsl(155deg 56% 51%);
+        }   
+    }
+
+    .desc {
+        display: flex;
+        flex-direction: column;
+        align-items: start!important;
+
+        span {
+            font-size: 20px;
+            text-align: left;
+            margin-bottom: 10px;
+
+            a {
+                color: hsl(155deg 56% 51%);
+                text-decoration: underline;
+            }
+        }
+    }
+}

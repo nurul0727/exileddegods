@@ -1,0 +1,53 @@
+.image {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, .6);
+    text-align: center;
+    font-size: 20em;
+    color: #fff;
+    position: absolute;
+    display: flex;
+
+    .each-img {
+        width: 200px;
+        height: 200px;
+        border-radius: 25px;
+    }
+}
+
+.size {
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 200px
+}
+
+.i1 {
+    transform: translateZ(360px);
+}
+
+.i2 {
+    transform: rotateY(45deg) translateZ(360px);
+}
+
+.i3 {
+    transform: rotateY(90deg) translateZ(360px);
+}
+.i4 {
+    transform: rotateY(135deg) translateZ(360px);
+}
+.i5 {
+    transform: rotateY(180deg) translateZ(360px);
+}
+.i6 {
+    transform: rotateY(225deg) translateZ(360px);
+}
+
+.i7 {
+    transform: rotateY(270deg) translateZ(360px);
+}
+.i8 {
+    transform: rotateY(315deg) translateZ(360px);
+}
